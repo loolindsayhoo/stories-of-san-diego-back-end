@@ -44,3 +44,5 @@ gem 'jwt'
 
 gem 'cloudinary'
 gem 'ransack'
+
+gem 'prerender_rails'

@@ -124,6 +124,9 @@ GEM
     pg (1.2.3)
     pg (1.2.3-x64-mingw32)
     pg (1.2.3-x86-mingw32)
+    prerender_rails (1.7.0)
+      activesupport
+      rack (~> 2.2.2)
     puma (4.3.7)
       nio4r (~> 2.0)
     puma (4.3.7-java)
@@ -210,6 +213,8 @@ GEM
       unf_ext
     unf (0.1.4-java)
     unf_ext (0.0.7.7)
+    unf_ext (0.0.7.7-x64-mingw32)
+    unf_ext (0.0.7.7-x86-mingw32)
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-driver (0.7.3-java)
@@ -232,6 +237,7 @@ DEPENDENCIES
   jwt
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
+  prerender_rails
   puma (~> 4.1)
   rack-cors
   rails (~> 6.1)
